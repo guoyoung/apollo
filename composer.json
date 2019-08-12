@@ -1,0 +1,21 @@
+{
+    "name": "gyoung/apollo",
+    "description": "base on swoft2.0, apollo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "guoyang",
+            "email": "583045376@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "swoft/apollo": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apollo\\": "src/"
+        }
+    }
+}
