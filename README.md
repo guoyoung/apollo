@@ -1,5 +1,5 @@
 # Apollo
-- 基于swoft2.0.5+，实现监听Apollo，当配置变化时，会自动同步到每个worker，不包括自定义worker。
+- 基于swoft/apollo，实现监听Apollo，当配置变化时，会自动同步到每个worker，不包括自定义worker。
 
 # 安装
 - 通过composer安装
@@ -8,6 +8,7 @@ composer require gyoung/apollo
 ```
 # 使用
 ## 基础配置
+- 按swoft/apollo在bean.php添加配置
 - 在config下新增apollo.php，内容如下：
 ```
   return [
